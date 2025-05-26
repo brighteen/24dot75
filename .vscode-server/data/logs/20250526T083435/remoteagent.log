@@ -1,0 +1,30 @@
+2025-05-26 08:34:35.172 [info] 
+
+
+
+
+2025-05-26 08:34:35.188 [info] Extension host agent started.
+2025-05-26 08:34:35.649 [info] [<unknown>][c17becbc][ManagementConnection] New connection established.
+2025-05-26 08:34:35.650 [info] [<unknown>][2ebf1d1a][ExtensionHostConnection] New connection established.
+2025-05-26 08:34:35.735 [info] [<unknown>][2ebf1d1a][ExtensionHostConnection] <23859> Launched Extension Host Process.
+2025-05-26 08:34:35.786 [info] [<unknown>][2ebf1d1a][ExtensionHostConnection] <23859><stderr> Error reading NLS messages file /home/ubuntu/.vscode-server/data/clp/590d89482cfc3cb8262707123309fdf5.ko/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/ubuntu/.vscode-server/data/clp/590d89482cfc3cb8262707123309fdf5.ko/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/nls.messages.json'
+
+2025-05-26 08:34:36.217 [info] ComputeTargetPlatform: linux-x64
+2025-05-26 08:34:39.516 [info] ComputeTargetPlatform: linux-x64
+2025-05-26 08:34:43.318 [error] Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2025-05-26 08:34:43.523 [error] Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2025-05-26 08:36:12.518 [info] [<unknown>][c17becbc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-26 08:36:12.637 [info] [<unknown>][2ebf1d1a][ExtensionHostConnection] <23859> Extension Host Process exited with code: 0, signal: null.
+2025-05-26 08:36:12.637 [info] Cancelling previous shutdown timeout
+2025-05-26 08:36:12.637 [info] Last EH closed, waiting before shutting down
+2025-05-26 08:40:14.362 [info] [<unknown>][b122d773][ExtensionHostConnection] New connection established.
+2025-05-26 08:40:14.364 [info] [<unknown>][3217a13d][ManagementConnection] New connection established.
+2025-05-26 08:40:14.369 [info] [<unknown>][b122d773][ExtensionHostConnection] <24263> Launched Extension Host Process.
+2025-05-26 08:40:14.370 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/out/server-main.js:190:1060)
+    at process.emit (node:events:536:35)
+2025-05-26 08:40:14.421 [info] [<unknown>][b122d773][ExtensionHostConnection] <24263><stderr> Error reading NLS messages file /home/ubuntu/.vscode-server/data/clp/590d89482cfc3cb8262707123309fdf5.ko/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/ubuntu/.vscode-server/data/clp/590d89482cfc3cb8262707123309fdf5.ko/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/nls.messages.json'
+
+2025-05-26 08:41:12.637 [info] New EH opened, aborting shutdown

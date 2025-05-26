@@ -1,0 +1,8 @@
+2025-05-25 16:39:13.925 [info] Can't use the Electron fetcher in this environment.
+2025-05-25 16:39:13.925 [info] Using the Node fetch fetcher.
+2025-05-25 16:39:13.925 [info] Initializing Git extension service.
+2025-05-25 16:39:13.925 [info] Successfully activated the vscode.git extension.
+2025-05-25 16:39:13.925 [info] Enablement state of the vscode.git extension: true.
+2025-05-25 16:39:13.925 [info] Successfully registered Git commit message provider.
+2025-05-25 16:39:20.828 [info] Logged in as eys632
+2025-05-25 16:39:21.974 [info] Got Copilot token for eys632

@@ -1,0 +1,141 @@
+2025-05-26 08:34:44.512 [info] [main] 로그 수준: Info
+2025-05-26 08:34:44.512 [info] [main] "git"에서 찾은 git 유효성을 검사하는 중
+2025-05-26 08:34:44.512 [info] [main] "2.43.0"에서 git "git"을(를) 사용하는 중
+2025-05-26 08:34:44.512 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-26 08:34:44.512 [info] > git rev-parse --show-toplevel [39ms]
+2025-05-26 08:34:44.512 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-26 08:34:44.512 [info] > git rev-parse --show-toplevel [705ms]
+2025-05-26 08:34:45.464 [info] > git rev-parse --git-dir --git-common-dir [952ms]
+2025-05-26 08:34:45.486 [info] [Model][openRepository] Opened repository (path): /home/ubuntu
+2025-05-26 08:34:45.486 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu
+2025-05-26 08:34:45.492 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-26 08:34:45.784 [info] > git config --get commit.template [228ms]
+2025-05-26 08:34:45.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-05-26 08:34:46.246 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:34:46.252 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-05-26 08:34:46.270 [info] > git fetch [783ms]
+2025-05-26 08:34:46.271 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] (cancelled)
+2025-05-26 08:34:46.298 [info] > git status -z -uall [40ms] (cancelled)
+2025-05-26 08:34:46.298 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-05-26 08:34:46.324 [info] > git check-ignore -v -z --stdin [12ms]
+2025-05-26 08:34:46.325 [info] > git config --get --local branch.main.vscode-merge-base [20ms]
+2025-05-26 08:34:46.331 [info] > git config --get commit.template [35ms]
+2025-05-26 08:34:46.332 [info] > git config --get commit.template [44ms]
+2025-05-26 08:34:46.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2025-05-26 08:34:46.352 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-05-26 08:34:46.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-05-26 08:34:46.359 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:34:46.364 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:34:46.364 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2025-05-26 08:34:46.371 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-05-26 08:34:46.378 [info] > git rev-parse refs/remotes/origin/main [20ms]
+2025-05-26 08:34:46.393 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2025-05-26 08:34:46.400 [info] > git diff --name-status -z --diff-filter=ADMR 6aea41a5cb3950cc7289e1ed66ec2ed15d26fdbb...refs/remotes/origin/main [30ms]
+2025-05-26 08:34:46.402 [info] > git diff --name-status -z --diff-filter=ADMR 6aea41a5cb3950cc7289e1ed66ec2ed15d26fdbb...refs/remotes/origin/main [2ms]
+2025-05-26 08:34:46.403 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-05-26 08:34:46.560 [info] > git status -z -uall [176ms]
+2025-05-26 08:34:47.452 [info] > git config --get commit.template [766ms]
+2025-05-26 08:34:47.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-05-26 08:34:47.482 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:34:47.483 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:34:47.496 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-26 08:34:47.542 [info] > git status -z -uall [54ms]
+2025-05-26 08:34:53.631 [info] > git config --get commit.template [8ms]
+2025-05-26 08:34:53.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-26 08:34:53.637 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:34:53.638 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:34:53.651 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:34:53.690 [info] > git status -z -uall [47ms]
+2025-05-26 08:34:59.349 [info] > git diff --name-status -z --diff-filter=ADMR 6aea41a5cb3950cc7289e1ed66ec2ed15d26fdbb [5ms]
+2025-05-26 08:35:02.771 [info] > git config --get commit.template [3ms]
+2025-05-26 08:35:02.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-05-26 08:35:02.784 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:02.785 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:35:02.799 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:35:02.838 [info] > git status -z -uall [47ms]
+2025-05-26 08:35:07.894 [info] > git config --get commit.template [6ms]
+2025-05-26 08:35:07.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-26 08:35:07.901 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:07.902 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-26 08:35:07.915 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:35:07.953 [info] > git status -z -uall [46ms]
+2025-05-26 08:35:13.005 [info] > git config --get commit.template [6ms]
+2025-05-26 08:35:13.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-26 08:35:13.011 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:13.012 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:35:13.026 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:35:13.065 [info] > git status -z -uall [47ms]
+2025-05-26 08:35:18.118 [info] > git config --get commit.template [6ms]
+2025-05-26 08:35:18.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-26 08:35:18.125 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:18.126 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-26 08:35:18.139 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:35:18.179 [info] > git status -z -uall [48ms]
+2025-05-26 08:35:23.232 [info] > git config --get commit.template [6ms]
+2025-05-26 08:35:23.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-26 08:35:23.239 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:23.240 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:35:23.254 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-26 08:35:23.293 [info] > git status -z -uall [47ms]
+2025-05-26 08:35:28.464 [info] > git check-ignore -v -z --stdin [3ms]
+2025-05-26 08:35:29.210 [info] > git config --get commit.template [1ms]
+2025-05-26 08:35:29.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-26 08:35:29.223 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:29.224 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-26 08:35:29.237 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:35:29.277 [info] > git status -z -uall [48ms]
+2025-05-26 08:35:31.048 [info] > git show --textconv :apps/board/views.py [7ms]
+2025-05-26 08:35:31.049 [info] > git ls-files --stage -- apps/board/views.py [2ms]
+2025-05-26 08:35:31.057 [info] > git cat-file -s 1402fd1985a540982c95b83ec341cf08e32216aa [2ms]
+2025-05-26 08:35:31.583 [info] > git blame --root --incremental 6aea41a5cb3950cc7289e1ed66ec2ed15d26fdbb -- apps/board/views.py [5ms]
+2025-05-26 08:35:32.069 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-26 08:35:33.351 [info] > git check-ignore -v -z --stdin [4ms]
+2025-05-26 08:35:34.331 [info] > git config --get commit.template [7ms]
+2025-05-26 08:35:34.332 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-26 08:35:34.337 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:34.338 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:35:34.352 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:35:34.391 [info] > git status -z -uall [47ms]
+2025-05-26 08:35:35.042 [info] > git show --textconv :templates/user/login.html [18ms]
+2025-05-26 08:35:35.042 [info] > git ls-files --stage -- templates/user/login.html [13ms]
+2025-05-26 08:35:35.051 [info] > git cat-file -s 3b99671ec938fce575c646d9e9cf917583b1b49a [2ms]
+2025-05-26 08:35:35.659 [info] > git blame --root --incremental 6aea41a5cb3950cc7289e1ed66ec2ed15d26fdbb -- templates/user/login.html [2ms]
+2025-05-26 08:35:37.145 [info] > git show --textconv :apps/board/views.py [7ms]
+2025-05-26 08:35:37.145 [info] > git ls-files --stage -- apps/board/views.py [1ms]
+2025-05-26 08:35:37.152 [info] > git cat-file -s 1402fd1985a540982c95b83ec341cf08e32216aa [1ms]
+2025-05-26 08:35:39.449 [info] > git config --get commit.template [7ms]
+2025-05-26 08:35:39.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-26 08:35:39.456 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:39.457 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:35:39.470 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms]
+2025-05-26 08:35:39.509 [info] > git status -z -uall [46ms]
+2025-05-26 08:35:44.562 [info] > git config --get commit.template [7ms]
+2025-05-26 08:35:44.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-26 08:35:44.569 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:44.570 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:35:44.584 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:35:44.622 [info] > git status -z -uall [46ms]
+2025-05-26 08:35:49.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-26 08:35:49.677 [info] > git config --get commit.template [9ms]
+2025-05-26 08:35:49.684 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:49.685 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:35:49.703 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms]
+2025-05-26 08:35:49.738 [info] > git status -z -uall [46ms]
+2025-05-26 08:35:54.790 [info] > git config --get commit.template [6ms]
+2025-05-26 08:35:54.791 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-26 08:35:54.797 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:54.798 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:35:54.812 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:35:54.851 [info] > git status -z -uall [47ms]
+2025-05-26 08:35:59.904 [info] > git config --get commit.template [7ms]
+2025-05-26 08:35:59.905 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-26 08:35:59.911 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:35:59.912 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:35:59.926 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:35:59.967 [info] > git status -z -uall [50ms]
+2025-05-26 08:36:07.688 [info] > git config --get commit.template [7ms]
+2025-05-26 08:36:07.689 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-26 08:36:07.695 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-26 08:36:07.696 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 08:36:07.709 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 08:36:07.749 [info] > git status -z -uall [47ms]

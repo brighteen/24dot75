@@ -1,0 +1,60 @@
+<!-- header.html -->
+{% load static %}
+<nav class="navbar navbar-expand-md navbar-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="{% url 'board:chat' %}">
+      <div class="d-flex align-items-center">
+        <img src="{% static 'images/jju_logo.jpeg' %}" alt="로고" width="40" height="40" class="rounded-circle mr-3">
+        <div>
+          <strong>AI 챗봇</strong>
+          <small class="d-block text-muted" style="font-size: 0.8rem;">전주대학교</small>
+        </div>
+      </div>
+    </a>
+
+    <!-- 사이드바 토글 버튼 -->
+    <button id="sidebar-toggle" class="btn d-md-none" type="button">
+      <i class="bi bi-chat-dots"></i>
+    </button>
+
+    <!-- 네비게이션 토글 -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        {% if user.is_authenticated %}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" 
+               role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center mr-2" 
+                   style="width: 32px; height: 32px; font-size: 14px; font-weight: 600;">
+                {{ user.username|first|upper }}
+              </div>
+              <span class="d-none d-md-inline">{{ user.username }}</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+              {% if user.is_staff %}
+                <a class="dropdown-item" href="/admin/">
+                  <i class="bi bi-gear mr-2"></i>관리자 설정
+                </a>
+                <div class="dropdown-divider"></div>
+              {% endif %}
+              <a class="dropdown-item" href="{% url 'user:logout' %}">
+                <i class="bi bi-box-arrow-right mr-2"></i>로그아웃
+              </a>
+            </div>
+          </li>
+        {% else %}
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-primary mr-2" href="{% url 'user:login' %}">로그인</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary text-white" href="{% url 'user:signup' %}">회원가입</a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,21 @@
+2025-05-25 17:37:50.656 [info] 
+
+
+
+
+2025-05-25 17:37:50.677 [info] Extension host agent started.
+2025-05-25 17:37:51.036 [info] [<unknown>][f11a6c59][ExtensionHostConnection] New connection established.
+2025-05-25 17:37:51.037 [info] [<unknown>][91165eec][ManagementConnection] New connection established.
+2025-05-25 17:37:51.132 [info] [<unknown>][f11a6c59][ExtensionHostConnection] <1090> Launched Extension Host Process.
+2025-05-25 17:37:51.173 [info] [<unknown>][f11a6c59][ExtensionHostConnection] <1090><stderr> Error reading NLS messages file /home/ubuntu/.vscode-server/data/clp/590d89482cfc3cb8262707123309fdf5.ko/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/ubuntu/.vscode-server/data/clp/590d89482cfc3cb8262707123309fdf5.ko/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/nls.messages.json'
+
+2025-05-25 17:37:51.531 [info] ComputeTargetPlatform: linux-x64
+2025-05-25 17:37:54.410 [info] ComputeTargetPlatform: linux-x64
+2025-05-25 17:42:50.678 [info] New EH opened, aborting shutdown
+2025-05-25 18:38:45.031 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-05-25 18:54:20.080 [error] Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2025-05-25 18:54:20.082 [error] Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2025-05-25 18:54:20.346 [error] Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)

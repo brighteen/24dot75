@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid h-100">
+  <div class="row h-100 justify-content-center align-items-center">
+    <div class="col-md-6 col-lg-5">
+      <div class="card shadow-lg border-0" style="border-radius: 20px; overflow: hidden;">
+        <div class="card-header bg-primary text-white text-center py-4" 
+             style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%) !important;">
+          <div class="mb-3">
+            <i class="bi bi-person-plus-fill display-4"></i>
+          </div>
+          <h4 class="mb-0 font-weight-bold">회원가입</h4>
+          <small class="text-light">AI 챗봇 서비스에 가입하세요</small>
+        </div>
+        
+        <div class="card-body p-5">
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                <i class="bi bi-info-circle mr-2"></i>{{ message }}
+                <button type="button" class="close" data-dismiss="alert">
+                  <span>&times;</span>
+                </button>
+              </div>
+            {% endfor %}
+          {% endif %}
+          
+          <form method="post" id="signupForm">
+            {% csrf_token %}
+            
+            <div class="form-group mb-4">
+              <label for="{{ form.username.id_for_label }}" class="form-label font-weight-600">
+                <i class="bi bi-person mr-2 text-primary"></i>사용자명
+              </label>
+              {{ form.username }}
+              {% if form.username.errors %}
+                <div class="text-danger small mt-1">
+                  {% for error in form.username.errors %}
+                    <i class="bi bi-exclamation-triangle mr-1"></i>{{ error }}
+                  {% endfor %}
+                </div>
+              {% endif %}
+              <small class="text-muted">영문, 숫자, @/./+/-/_ 만 사용 가능합니다.</small>
+            </div>
+            
+            <div class="form-group mb-4">
+              <label for="{{ form.password1.id_for_label }}" class="form-label font-weight-600">
+                <i class="bi bi-lock mr-2 text-primary"></i>비밀번호
+              </label>
+              {{ form.password1 }}
+              {% if form.password1.errors %}
+                <div class="text-danger small mt-1">
+                  {% for error in form.password1.errors %}
+                    <i class="bi bi-exclamation-triangle mr-1"></i>{{ error }}
+                  {% endfor %}
+                </div>
+              {% endif %}
+              <small class="text-muted">8자 이상, 너무 일반적이지 않은 비밀번호를 사용하세요.</small>
+            </div>
+            
+            <div class="form-group mb-4">
+              <label for="{{ form.password2.id_for_label }}" class="form-label font-weight-600">
+                <i class="bi bi-lock-fill mr-2 text-primary"></i>비밀번호 확인
+              </label>
+              {{ form.password2 }}
+              {% if form.password2.errors %}
+                <div class="text-danger small mt-1">
+                  {% for error in form.password2.errors %}
+                    <i class="bi bi-exclamation-triangle mr-1"></i>{{ error }}
+                  {% endfor %}
+                </div>
+              {% endif %}
+              <small class="text-muted">위에 입력한 비밀번호와 동일하게 입력하세요.</small>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-block btn-lg mb-3" 
+                    style="border-radius: 25px; font-weight: 600;">
+              <i class="bi bi-person-check mr-2"></i>회원가입
+            </button>
+          </form>
+          
+          <div class="text-center">
+            <div class="text-muted mb-3">
+              <small>이미 계정이 있으신가요?</small>
+            </div>
+            <a href="{% url 'user:login' %}" class="btn btn-outline-primary btn-block" 
+               style="border-radius: 25px; font-weight: 500;">
+              <i class="bi bi-box-arrow-in-right mr-2"></i>로그인
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-4">
+        <small class="text-muted">
+          <i class="bi bi-shield-check mr-1"></i>
+          안전하고 신뢰할 수 있는 AI 챗봇 서비스
+        </small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .form-control {
+    border-radius: 15px;
+    border: 2px solid #e2e8f0;
+    padding: 12px 20px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+  }
+  
+  .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+  }
+  
+  .form-label {
+    color: #374151;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .font-weight-600 {
+    font-weight: 600;
+  }
+</style>
+{% endblock %}
