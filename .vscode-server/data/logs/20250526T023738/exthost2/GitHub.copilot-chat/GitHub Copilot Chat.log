@@ -1,0 +1,58 @@
+2025-05-26 03:23:50.385 [info] Can't use the Electron fetcher in this environment.
+2025-05-26 03:23:50.386 [info] Using the Node fetch fetcher.
+2025-05-26 03:23:50.386 [info] Initializing Git extension service.
+2025-05-26 03:23:50.701 [info] Successfully activated the vscode.git extension.
+2025-05-26 03:23:50.701 [info] Enablement state of the vscode.git extension: true.
+2025-05-26 03:23:50.701 [info] Successfully registered Git commit message provider.
+2025-05-26 03:23:53.545 [info] Logged in as eys632
+2025-05-26 03:23:56.148 [info] Got Copilot token for eys632
+2025-05-26 03:23:57.697 [info] Fetched model metadata in 1504ms b28cd73f-35b2-44a1-8f8b-2e540fa4185f
+2025-05-26 03:23:57.750 [info] copilot token chat_enabled: true, sku: free_educational
+2025-05-26 03:23:57.750 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-05-26 03:23:57.779 [info] Registering default platform agent...
+2025-05-26 03:23:59.662 [info] activationBlocker from 'languageModelAccess' took for 9021ms
+2025-05-26 03:23:59.748 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-26 03:54:03.633 [info] Logged in as eys632
+2025-05-26 03:54:04.782 [info] Got Copilot token for eys632
+2025-05-26 03:54:06.447 [info] copilot token chat_enabled: true, sku: free_educational
+2025-05-26 03:54:06.553 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-26 04:10:29.105 [info] Fetched model metadata in 1778ms 2020c6e4-7f5b-4e29-b4c0-11498ce59d6c
+2025-05-26 04:11:12.140 [info] message 0 returned. finish reason: [stop]
+2025-05-26 04:11:12.140 [info] request done: requestId: [1461274e-0695-4736-91c8-e9cbfae0ea49] model deployment ID: []
+2025-05-26 04:13:23.152 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:13:23.152 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:14:44.514 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:14:44.514 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:18:48.282 [info] Logged in as eys632
+2025-05-26 04:18:49.415 [info] Got Copilot token for eys632
+2025-05-26 04:18:50.839 [info] copilot token chat_enabled: true, sku: free_educational
+2025-05-26 04:18:50.953 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-26 04:18:54.076 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:18:54.076 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:19:13.855 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:19:13.856 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:19:30.054 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:19:30.055 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:19:46.064 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:19:46.064 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:20:00.867 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:20:00.867 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:20:08.894 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:20:08.894 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:20:23.649 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:20:23.649 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:20:30.173 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:20:30.174 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:20:31.917 [info] Fetched model metadata in 1741ms 223838d1-c28a-40f7-b267-3af0e72331f1
+2025-05-26 04:20:38.194 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:20:38.194 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:20:46.024 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:20:46.024 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:21:06.158 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:21:06.158 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:21:14.078 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:21:14.078 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:21:21.754 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:21:21.754 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []
+2025-05-26 04:21:48.669 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 04:21:48.669 [info] request done: requestId: [c2ec3529-0add-41fd-84d6-dde435343614] model deployment ID: []

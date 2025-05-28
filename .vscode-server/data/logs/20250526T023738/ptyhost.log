@@ -1,0 +1,69 @@
+2025-05-26 02:37:41.967 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2025-05-26 02:37:41.980 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2025-05-26 02:37:41.984 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2025-05-26 02:37:41.993 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2025-05-26 03:23:44.168 [info] Revived process, old id ceb51cb803177b6f606d658fcd31ca21-6 -> new id 11
+2025-05-26 03:23:44.168 [info] Revived process, old id ceb51cb803177b6f606d658fcd31ca21-10 -> new id 12
+2025-05-26 03:23:44.382 [info] Expanding terminal instance, old id ceb51cb803177b6f606d658fcd31ca21-5 -> new id undefined
+2025-05-26 03:23:44.382 [warning] Couldn't get layout info, a terminal was probably disconnected Could not find pty 5 on pty host
+2025-05-26 03:23:44.383 [info] Expanding terminal instance, old id ceb51cb803177b6f606d658fcd31ca21-6 -> new id 11
+2025-05-26 03:23:44.383 [info] Expanding terminal instance, old id ceb51cb803177b6f606d658fcd31ca21-10 -> new id 12
+2025-05-26 03:23:47.674 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2025-05-26 03:23:47.678 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2025-05-26 03:23:47.685 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2025-05-26 03:23:47.686 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2025-05-26 03:23:48.488 [error] [RPC Response] PtyService#updateIcon Could not find pty 13 on pty host
+2025-05-26 03:23:48.489 [error] [RPC Response] PtyService#updateTitle Could not find pty 13 on pty host
+2025-05-26 03:23:49.013 [warning] Persistent process "11": Process had no disconnect runners but was an orphan
+2025-05-26 03:23:49.014 [warning] Persistent process "12": Process had no disconnect runners but was an orphan
+2025-05-26 03:23:49.016 [info] Persistent process reconnection "11"
+2025-05-26 03:23:49.016 [info] Persistent process reconnection "12"
+2025-05-26 03:23:49.362 [info] Persistent process "11": Replaying 6551 chars and 1 size events
+2025-05-26 03:23:49.377 [info] Persistent process "12": Replaying 3625 chars and 1 size events
+2025-05-26 04:06:28.955 [error] [RPC Response] PtyService#updateIcon Could not find pty 2 on pty host
+2025-05-26 04:06:28.955 [error] [RPC Response] PtyService#updateTitle Could not find pty 2 on pty host
+2025-05-26 04:06:28.955 [error] [RPC Response] PtyService#updateTitle Could not find pty 2 on pty host
+2025-05-26 04:06:28.955 [error] [RPC Response] PtyService#updateTitle Could not find pty 2 on pty host
+2025-05-26 04:26:46.617 [info] Revived process, old id ceb51cb803177b6f606d658fcd31ca21-11 -> new id 22
+2025-05-26 04:26:46.617 [info] Revived process, old id ceb51cb803177b6f606d658fcd31ca21-12 -> new id 23
+2025-05-26 04:26:46.617 [info] Revived process, old id ceb51cb803177b6f606d658fcd31ca21-17 -> new id 24
+2025-05-26 04:26:46.617 [info] Revived process, old id ceb51cb803177b6f606d658fcd31ca21-18 -> new id 25
+2025-05-26 04:26:46.617 [info] Revived process, old id ceb51cb803177b6f606d658fcd31ca21-19 -> new id 26
+2025-05-26 04:26:46.617 [info] Revived process, old id ceb51cb803177b6f606d658fcd31ca21-20 -> new id 27
+2025-05-26 04:26:46.617 [info] Revived process, old id ceb51cb803177b6f606d658fcd31ca21-21 -> new id 28
+2025-05-26 04:26:46.867 [info] Expanding terminal instance, old id ceb51cb803177b6f606d658fcd31ca21-11 -> new id 22
+2025-05-26 04:26:46.867 [info] Expanding terminal instance, old id ceb51cb803177b6f606d658fcd31ca21-12 -> new id 23
+2025-05-26 04:26:46.867 [info] Expanding terminal instance, old id ceb51cb803177b6f606d658fcd31ca21-17 -> new id 24
+2025-05-26 04:26:46.867 [info] Expanding terminal instance, old id ceb51cb803177b6f606d658fcd31ca21-18 -> new id 25
+2025-05-26 04:26:46.871 [info] Expanding terminal instance, old id ceb51cb803177b6f606d658fcd31ca21-19 -> new id 26
+2025-05-26 04:26:46.871 [info] Expanding terminal instance, old id ceb51cb803177b6f606d658fcd31ca21-20 -> new id 27
+2025-05-26 04:26:46.871 [info] Expanding terminal instance, old id ceb51cb803177b6f606d658fcd31ca21-21 -> new id 28
+2025-05-26 04:26:49.745 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2025-05-26 04:26:49.751 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2025-05-26 04:26:49.753 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2025-05-26 04:26:49.760 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --no-config --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --disable --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2025-05-26 04:26:50.531 [warning] Persistent process "22": Process had no disconnect runners but was an orphan
+2025-05-26 04:26:50.531 [warning] Persistent process "28": Process had no disconnect runners but was an orphan
+2025-05-26 04:26:50.531 [info] Persistent process reconnection "22"
+2025-05-26 04:26:50.531 [info] Persistent process reconnection "28"
+2025-05-26 04:26:50.784 [warning] Persistent process "23": Process had no disconnect runners but was an orphan
+2025-05-26 04:26:50.784 [warning] Persistent process "24": Process had no disconnect runners but was an orphan
+2025-05-26 04:26:50.784 [warning] Persistent process "25": Process had no disconnect runners but was an orphan
+2025-05-26 04:26:50.784 [warning] Persistent process "26": Process had no disconnect runners but was an orphan
+2025-05-26 04:26:50.784 [warning] Persistent process "27": Process had no disconnect runners but was an orphan
+2025-05-26 04:26:50.785 [info] Persistent process reconnection "23"
+2025-05-26 04:26:50.785 [info] Persistent process reconnection "24"
+2025-05-26 04:26:50.785 [info] Persistent process reconnection "25"
+2025-05-26 04:26:50.785 [info] Persistent process reconnection "26"
+2025-05-26 04:26:50.785 [info] Persistent process reconnection "27"
+2025-05-26 04:26:50.798 [info] Persistent process "22": Replaying 6418 chars and 1 size events
+2025-05-26 04:26:50.803 [info] Persistent process "28": Replaying 1844 chars and 1 size events
+2025-05-26 04:26:51.141 [info] Persistent process "23": Replaying 3718 chars and 1 size events
+2025-05-26 04:26:51.149 [info] Persistent process "24": Replaying 527 chars and 1 size events
+2025-05-26 04:26:51.154 [info] Persistent process "25": Replaying 324 chars and 1 size events
+2025-05-26 04:26:51.159 [info] Persistent process "26": Replaying 279 chars and 1 size events
+2025-05-26 04:26:51.178 [info] Persistent process "27": Replaying 1863 chars and 1 size events
+2025-05-26 05:10:55.441 [error] [RPC Response] PtyService#updateIcon Could not find pty 2 on pty host
+2025-05-26 05:10:55.441 [error] [RPC Response] PtyService#updateTitle Could not find pty 2 on pty host
+2025-05-26 05:10:55.442 [error] [RPC Response] PtyService#updateTitle Could not find pty 2 on pty host
+2025-05-26 05:10:55.443 [error] [RPC Response] PtyService#updateTitle Could not find pty 2 on pty host

@@ -1,0 +1,177 @@
+2025-05-26 08:40:19.733 [info] Can't use the Electron fetcher in this environment.
+2025-05-26 08:40:19.733 [info] Using the Node fetch fetcher.
+2025-05-26 08:40:19.733 [info] Initializing Git extension service.
+2025-05-26 08:40:21.036 [info] Successfully activated the vscode.git extension.
+2025-05-26 08:40:21.036 [info] Enablement state of the vscode.git extension: true.
+2025-05-26 08:40:21.036 [info] Successfully registered Git commit message provider.
+2025-05-26 08:40:24.601 [info] Logged in as eys632
+2025-05-26 08:40:47.209 [info] Got Copilot token for eys632
+2025-05-26 08:40:49.685 [info] Fetched model metadata in 2465ms c8937b18-33ec-4c9e-a83f-7e0254d160d9
+2025-05-26 08:40:49.851 [info] copilot token chat_enabled: true, sku: free_educational
+2025-05-26 08:40:49.851 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-05-26 08:40:49.880 [info] Registering default platform agent...
+2025-05-26 08:40:50.220 [info] activationBlocker from 'languageModelAccess' took for 30270ms
+2025-05-26 08:40:50.247 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-26 08:41:06.672 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:41:06.672 [info] request done: requestId: [a8da2b44-2b12-4a83-8eee-2367f434e0b2] model deployment ID: []
+2025-05-26 08:41:24.007 [info] message 0 returned. finish reason: [stop]
+2025-05-26 08:41:24.007 [info] request done: requestId: [a8da2b44-2b12-4a83-8eee-2367f434e0b2] model deployment ID: []
+2025-05-26 08:46:10.371 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:46:10.371 [info] request done: requestId: [ac9d1025-1f46-4ad7-adf7-59b2b37543de] model deployment ID: []
+2025-05-26 08:47:25.423 [warning] Tool vscode_editFile_internal failed validation: schema description may not be empty
+2025-05-26 08:47:31.850 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:47:31.850 [info] request done: requestId: [8a0c6832-cefd-4a0b-ba16-99318d904269] model deployment ID: []
+2025-05-26 08:47:42.290 [warning] Tool vscode_editFile_internal failed validation: schema description may not be empty
+2025-05-26 08:47:49.194 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:47:49.194 [info] request done: requestId: [8a0c6832-cefd-4a0b-ba16-99318d904269] model deployment ID: []
+2025-05-26 08:48:44.439 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:48:44.439 [info] request done: requestId: [0ce0dee6-d179-4670-a218-463ace6b9300] model deployment ID: []
+2025-05-26 08:49:36.531 [warning] Tool vscode_editFile_internal failed validation: schema description may not be empty
+2025-05-26 08:49:42.237 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:49:42.237 [info] request done: requestId: [8a0c6832-cefd-4a0b-ba16-99318d904269] model deployment ID: []
+2025-05-26 08:50:08.738 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:50:08.738 [info] request done: requestId: [0ce0dee6-d179-4670-a218-463ace6b9300] model deployment ID: []
+2025-05-26 08:51:17.319 [info] Fetched model metadata in 6612ms 1bef50d1-3ccd-4f87-87dc-6ceed4558cf2
+2025-05-26 08:51:17.320 [error] Error: Failed to fetch models (1bef50d1-3ccd-4f87-87dc-6ceed4558cf2): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+
+    at NA._fetchModels (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:4544)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at NA.getChatModelFromApiModel (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:3093)
+    at lU.getChatEndpoint (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:11421)
+    at LX.requestPolicyConfirmation (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:2140)
+    at nP.y (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:1711)
+    at zh.$invokeAgent (file:///home/ubuntu/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/out/vs/workbench/api/node/extensionHostProcess.js:145:45223): Failed to fetch models (1bef50d1-3ccd-4f87-87dc-6ceed4558cf2)
+2025-05-26 08:51:24.714 [info] Fetched model metadata in 7394ms 7df4b96c-0b6f-4623-a975-19784131f3e8
+2025-05-26 08:51:24.715 [error] Error: Failed to fetch models (7df4b96c-0b6f-4623-a975-19784131f3e8): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+
+    at NA._fetchModels (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:4544)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at NA.getChatModelFromApiModel (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:3093)
+    at lU.getChatEndpoint (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:11421)
+    at LX.switchToBaseModel (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:2471)
+    at nP.y (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:1791)
+    at zh.$invokeAgent (file:///home/ubuntu/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/out/vs/workbench/api/node/extensionHostProcess.js:145:45223): Failed to fetch models (7df4b96c-0b6f-4623-a975-19784131f3e8)
+2025-05-26 08:51:31.489 [info] Fetched model metadata in 6774ms b45e2e70-44d8-4c0b-a878-e6abf255ae00
+2025-05-26 08:51:31.490 [error] Error: Failed to fetch models (b45e2e70-44d8-4c0b-a878-e6abf255ae00): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+
+    at NA._fetchModels (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:4544)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at NA.getChatModelFromFamily (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:2654)
+    at lU.getChatEndpoint (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:11261)
+    at LX.switchToBaseModel (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:2520)
+    at nP.y (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:1791)
+    at zh.$invokeAgent (file:///home/ubuntu/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/out/vs/workbench/api/node/extensionHostProcess.js:145:45223): Failed to fetch models (b45e2e70-44d8-4c0b-a878-e6abf255ae00)
+2025-05-26 08:51:38.216 [info] Fetched model metadata in 6725ms 15e899bc-e8e5-4526-bcdf-cd3d1ef7ce46
+2025-05-26 08:51:38.217 [error] Error: Failed to fetch models (15e899bc-e8e5-4526-bcdf-cd3d1ef7ce46): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+
+    at NA._fetchModels (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:4544)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5): Failed to fetch models (15e899bc-e8e5-4526-bcdf-cd3d1ef7ce46)
+2025-05-26 08:51:45.804 [info] Fetched model metadata in 7586ms 8b8809fe-5395-46f9-bf63-4cc320c58c56
+2025-05-26 08:51:45.805 [error] Error: Failed to fetch models (8b8809fe-5395-46f9-bf63-4cc320c58c56): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+
+    at NA._fetchModels (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:4544)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5): Failed to fetch models (8b8809fe-5395-46f9-bf63-4cc320c58c56)
+2025-05-26 08:51:52.968 [info] Fetched model metadata in 6955ms b80955c4-8c0e-490d-a958-58f0c21abe43
+2025-05-26 08:51:52.969 [error] Error: Failed to fetch models (b80955c4-8c0e-490d-a958-58f0c21abe43): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+
+    at NA._fetchModels (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:4544)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5): Failed to fetch models (b80955c4-8c0e-490d-a958-58f0c21abe43)
+2025-05-26 08:51:52.973 [warning] Tool vscode_editFile_internal failed validation: schema description may not be empty
+2025-05-26 08:51:59.855 [info] Request ID for failed request: 8a0c6832-cefd-4a0b-ba16-99318d904269
+2025-05-26 08:51:59.855 [error] Server error: 500 can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025-05-26 08:52:10.689 [info] Fetched model metadata in 7270ms 6870bbba-c785-44f6-b00c-30e40fc74f71
+2025-05-26 08:52:10.690 [error] Error: Failed to fetch models (6870bbba-c785-44f6-b00c-30e40fc74f71): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+
+    at NA._fetchModels (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:4544)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at NA.getChatModelFromApiModel (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:3093)
+    at lU.getChatEndpoint (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:11421)
+    at r$.runOne (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:845:11258)
+    at r$.run (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:845:10184)
+    at xy.runWithToolCalling (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:1282:17195)
+    at xy.getResult (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:1282:12657)
+    at E$.getResult (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:1430:6446)
+    at rx.getResult (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:1285:9184)
+    at nP.y (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:1980)
+    at zh.$invokeAgent (file:///home/ubuntu/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/out/vs/workbench/api/node/extensionHostProcess.js:145:45223): Failed to fetch models (6870bbba-c785-44f6-b00c-30e40fc74f71)
+2025-05-26 08:52:15.969 [info] Fetched model metadata in 1904ms 0629e1b6-50ab-417f-a023-85f0ce7f4cee
+2025-05-26 08:52:17.314 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:52:17.314 [info] request done: requestId: [b525c68b-2b29-4725-877e-ef9cd222ed5a] model deployment ID: []
+2025-05-26 08:52:27.012 [warning] Tool vscode_editFile_internal failed validation: schema description may not be empty
+2025-05-26 08:52:32.424 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:52:32.424 [info] request done: requestId: [7e9d2853-4037-4b90-8048-d14b61b92636] model deployment ID: []
+2025-05-26 08:52:34.526 [error] Error from tool github_repo with args {"repo": "brighteen/24dot75", "query": "UI templates HTML CSS frontend design"}: Could not check Github repo index state: Error: Could not check Github repo index state
+    at s (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:1172:1644)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Xj.prepareInvocation (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:1172:1817)
+    at YV.$prepareToolInvocation (file:///home/ubuntu/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/out/vs/workbench/api/node/extensionHostProcess.js:151:3563)
+2025-05-26 08:52:34.975 [warning] Tool vscode_editFile_internal failed validation: schema description may not be empty
+2025-05-26 08:52:35.909 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:52:35.909 [info] request done: requestId: [b525c68b-2b29-4725-877e-ef9cd222ed5a] model deployment ID: []
+2025-05-26 08:52:41.792 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:52:41.792 [info] request done: requestId: [7e9d2853-4037-4b90-8048-d14b61b92636] model deployment ID: []
+2025-05-26 08:52:56.251 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:52:56.251 [info] request done: requestId: [b525c68b-2b29-4725-877e-ef9cd222ed5a] model deployment ID: []
+2025-05-26 08:53:28.747 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:53:28.748 [info] request done: requestId: [da0c2712-8806-4a5c-a282-bfa91b17eafb] model deployment ID: []
+2025-05-26 08:54:23.426 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:54:23.426 [info] request done: requestId: [c797ea2e-3165-45c0-bde3-65157e7183e8] model deployment ID: []
+2025-05-26 08:56:32.013 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 08:56:32.013 [info] request done: requestId: [e969ccf9-9b59-4a56-86ea-0f701f2378ae] model deployment ID: []
+2025-05-26 09:00:48.605 [info] Request ID for failed request: e969ccf9-9b59-4a56-86ea-0f701f2378ae
+2025-05-26 09:00:48.605 [error] Server error: 500 can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025-05-26 09:01:06.061 [warning] Tool vscode_editFile_internal failed validation: schema description may not be empty
+2025-05-26 09:01:13.598 [info] Request ID for failed request: 86d1507e-6187-475e-bebc-bbba954664d6
+2025-05-26 09:01:13.598 [error] Server error: 500 can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025-05-26 09:01:36.199 [warning] Tool vscode_editFile_internal failed validation: schema description may not be empty
+2025-05-26 09:01:37.668 [info] Logged in as eys632
+2025-05-26 09:01:59.456 [info] Got Copilot token for eys632
+2025-05-26 09:02:01.404 [info] copilot token chat_enabled: true, sku: free_educational
+2025-05-26 09:02:01.558 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-26 09:02:09.704 [info] message 0 returned. finish reason: [stop]
+2025-05-26 09:02:09.704 [info] request done: requestId: [b2d09f7a-df0e-44f3-883d-14ae1be8264e] model deployment ID: []
+2025-05-26 09:10:52.150 [info] Fetched model metadata in 7046ms bce495c5-555d-40c1-88b5-f355ea6abc0d
+2025-05-26 09:10:52.151 [error] Error: Failed to fetch models (bce495c5-555d-40c1-88b5-f355ea6abc0d): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+
+    at NA._fetchModels (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:4544)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at NA.getChatModelFromApiModel (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:3093)
+    at lU.getChatEndpoint (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:11421)
+    at LX.requestPolicyConfirmation (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:2140)
+    at nP.y (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:1711)
+    at zh.$invokeAgent (file:///home/ubuntu/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/out/vs/workbench/api/node/extensionHostProcess.js:145:45223): Failed to fetch models (bce495c5-555d-40c1-88b5-f355ea6abc0d)
+2025-05-26 09:10:58.531 [info] Fetched model metadata in 6379ms ae10e1e4-059c-4f9a-98c4-a4e2afdb407e
+2025-05-26 09:10:58.531 [error] Error: Failed to fetch models (ae10e1e4-059c-4f9a-98c4-a4e2afdb407e): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+
+    at NA._fetchModels (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:4544)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at NA.getChatModelFromApiModel (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:3093)
+    at lU.getChatEndpoint (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2339:11421)
+    at LX.switchToBaseModel (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:2471)
+    at nP.y (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.2/dist/extension.js:2334:1791)
+    at zh.$invokeAgent (file:///home/ubuntu/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/out/vs/workbench/api/node/extensionHostProcess.js:145:45223): Failed to fetch models (ae10e1e4-059c-4f9a-98c4-a4e2afdb407e)
+2025-05-26 09:11:03.803 [info] Fetched model metadata in 5271ms bdfe5d6e-f494-4ce8-aecc-e80b188e3e76
+2025-05-26 09:11:19.506 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 09:11:19.506 [info] request done: requestId: [c1e5e4fa-6464-4167-beb5-47b17fa1e4df] model deployment ID: []
+2025-05-26 09:11:33.235 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 09:11:33.235 [info] request done: requestId: [c1e5e4fa-6464-4167-beb5-47b17fa1e4df] model deployment ID: []
+2025-05-26 09:11:42.685 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 09:11:42.685 [info] request done: requestId: [c1e5e4fa-6464-4167-beb5-47b17fa1e4df] model deployment ID: []
+2025-05-26 09:13:19.589 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 09:13:19.589 [info] request done: requestId: [c1e5e4fa-6464-4167-beb5-47b17fa1e4df] model deployment ID: []
+2025-05-26 09:13:26.286 [info] message 0 returned. finish reason: [stop]
+2025-05-26 09:13:26.286 [info] request done: requestId: [dd1a9f35-c1e0-4e01-89fd-1c8671d6d04e] model deployment ID: []
+2025-05-26 09:15:47.260 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 09:15:47.260 [info] request done: requestId: [d5ca429c-73f5-46b3-983f-4f4c70f8c804] model deployment ID: []
+2025-05-26 09:15:57.749 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 09:15:57.749 [info] request done: requestId: [d5ca429c-73f5-46b3-983f-4f4c70f8c804] model deployment ID: []
+2025-05-26 09:15:58.156 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 09:15:58.156 [info] request done: requestId: [c1e5e4fa-6464-4167-beb5-47b17fa1e4df] model deployment ID: []
+2025-05-26 09:16:08.051 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 09:16:08.051 [info] request done: requestId: [c1e5e4fa-6464-4167-beb5-47b17fa1e4df] model deployment ID: []
+2025-05-26 09:16:27.962 [info] message 0 returned. finish reason: [stop]
+2025-05-26 09:16:27.963 [info] request done: requestId: [c1e5e4fa-6464-4167-beb5-47b17fa1e4df] model deployment ID: []
+2025-05-26 09:19:13.987 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 09:19:13.987 [info] request done: requestId: [d5ca429c-73f5-46b3-983f-4f4c70f8c804] model deployment ID: []
+2025-05-26 09:19:25.869 [info] message 0 returned. finish reason: [tool_calls]
+2025-05-26 09:19:25.869 [info] request done: requestId: [d5ca429c-73f5-46b3-983f-4f4c70f8c804] model deployment ID: []

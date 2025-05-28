@@ -1,0 +1,60 @@
+nohup: ignoring input
+Watching for file changes with StatReloader
+[26/May/2025 11:41:24] "GET / HTTP/1.1" 302 0
+[26/May/2025 11:41:24] "GET /login/ HTTP/1.1" 200 8345
+[26/May/2025 11:41:24] "GET /static/images/jju_logo.jpeg HTTP/1.1" 200 5185
+Not Found: /favicon.ico
+[26/May/2025 11:41:25] "GET /favicon.ico HTTP/1.1" 404 3803
+Not Found: /favicon.ico
+[26/May/2025 11:41:25] "GET /favicon.ico HTTP/1.1" 404 3803
+[26/May/2025 11:41:38] "GET / HTTP/1.1" 302 0
+[26/May/2025 11:41:38] "GET /board/chat/ HTTP/1.1" 200 17882
+[26/May/2025 11:41:39] "GET /static/css/style.css?v=20250525 HTTP/1.1" 200 11021
+[26/May/2025 11:41:39] "GET /static/bootstrap.min.css HTTP/1.1" 304 0
+[26/May/2025 11:41:39] "GET /static/css/style.css?v=2025052502 HTTP/1.1" 200 11021
+[26/May/2025 11:41:39] "GET /static/images/jju_logo.jpeg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[26/May/2025 11:41:39] "GET /favicon.ico HTTP/1.1" 404 3808
+[26/May/2025 11:41:46] "GET /board/chat/ HTTP/1.1" 200 17882
+[26/May/2025 11:41:54] "GET / HTTP/1.1" 302 0
+[26/May/2025 11:41:55] "GET /board/chat/ HTTP/1.1" 200 17882
+/home/ubuntu/apps/board/views.py changed, reloading.
+Persistent vector store data found, skipping re-embedding.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 26, 2025 - 11:40:38
+Django version 5.1.6, using settings 'config.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/myenv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/myenv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/home/ubuntu/myenv/lib/python3.12/site-packages/django/utils/autoreload.py", line 87, in raise_last_exception
+    raise _exception[1]
+  File "/home/ubuntu/myenv/lib/python3.12/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/home/ubuntu/myenv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/myenv/lib/python3.12/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ubuntu/myenv/lib/python3.12/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/home/ubuntu/apps/board/apps.py", line 9, in ready
+    import apps.board.signals
+  File "/home/ubuntu/apps/board/signals.py", line 9, in <module>
+    from apps.board.views import vector_store, add_documents
+  File "/home/ubuntu/apps/board/views.py", line 94
+    )        def token_generator():
+             ^^^
+SyntaxError: invalid syntax
+Persistent vector store data found, skipping re-embedding.

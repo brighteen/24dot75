@@ -1,0 +1,35 @@
+2025-05-25 17:13:23.359 [info] [main] 로그 수준: Info
+2025-05-25 17:13:23.359 [info] [main] "git"에서 찾은 git 유효성을 검사하는 중
+2025-05-25 17:13:23.359 [info] [main] "2.43.0"에서 git "git"을(를) 사용하는 중
+2025-05-25 17:13:23.359 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-25 17:13:23.359 [info] > git rev-parse --show-toplevel [14ms]
+2025-05-25 17:13:23.359 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-25 17:13:23.359 [info] > git rev-parse --show-toplevel [5ms]
+2025-05-25 17:13:23.359 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-05-25 17:13:23.359 [info] [Model][openRepository] Opened repository (path): /home/ubuntu
+2025-05-25 17:13:23.359 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu
+2025-05-25 17:13:23.359 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-25 17:13:23.359 [info] > git config --get commit.template [18ms]
+2025-05-25 17:13:23.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-05-25 17:13:23.376 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-25 17:13:23.386 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2025-05-25 17:13:23.855 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [412ms]
+2025-05-25 17:13:24.543 [info] > git check-ignore -v -z --stdin [42ms]
+2025-05-25 17:13:25.021 [info] > git status -z -uall [1605ms] (cancelled)
+2025-05-25 17:13:27.616 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2614ms]
+2025-05-25 17:13:31.199 [info] > git config --get --local branch.main.vscode-merge-base [3572ms]
+2025-05-25 17:13:31.233 [info] > git config --get commit.template [3633ms]
+2025-05-25 17:13:31.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [54ms]
+2025-05-25 17:13:31.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2025-05-25 17:13:31.315 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-25 17:13:31.320 [info] > git merge-base refs/heads/main refs/remotes/origin/main [21ms]
+2025-05-25 17:13:31.331 [info] > git rev-parse refs/remotes/origin/main [16ms]
+2025-05-25 17:13:31.357 [info] > git diff --name-status -z --diff-filter=ADMR 6aea41a5cb3950cc7289e1ed66ec2ed15d26fdbb...refs/remotes/origin/main [29ms]
+2025-05-25 17:13:31.362 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2025-05-25 17:20:16.704 [info] > git status -z -uall [404975ms] (cancelled)
+2025-05-25 17:20:25.999 [info] > git config --get commit.template [50040ms]
+2025-05-25 17:20:40.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [141ms]
+2025-05-25 17:20:40.468 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/.git/refs/remotes/origin/main'
+2025-05-25 17:20:40.473 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-05-25 17:20:40.497 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-25 17:20:48.968 [info] > git status -z -uall [8479ms] (cancelled)

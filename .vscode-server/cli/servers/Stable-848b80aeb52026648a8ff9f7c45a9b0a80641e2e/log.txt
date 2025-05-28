@@ -1,0 +1,51 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-3f93ab99-9d66-44d5-a615-69d77344141c
+Extension host agent listening on /tmp/code-3f93ab99-9d66-44d5-a615-69d77344141c
+
+[08:34:35] 
+
+
+
+
+[08:34:35] Extension host agent started.
+[08:34:35] [<unknown>][c17becbc][ManagementConnection] New connection established.
+[08:34:35] [<unknown>][2ebf1d1a][ExtensionHostConnection] New connection established.
+[08:34:35] [<unknown>][2ebf1d1a][ExtensionHostConnection] <23859> Launched Extension Host Process.
+[08:34:35] [<unknown>][2ebf1d1a][ExtensionHostConnection] <23859><stderr> Error reading NLS messages file /home/ubuntu/.vscode-server/data/clp/590d89482cfc3cb8262707123309fdf5.ko/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/ubuntu/.vscode-server/data/clp/590d89482cfc3cb8262707123309fdf5.ko/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/nls.messages.json'
+
+[08:34:36] ComputeTargetPlatform: linux-x64
+[08:34:39] ComputeTargetPlatform: linux-x64
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8000
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+[08:34:43] Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8000
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+[08:34:43] Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+[08:36:12] [<unknown>][c17becbc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:36:12] [<unknown>][2ebf1d1a][ExtensionHostConnection] <23859> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[08:36:12] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[08:36:12] Last EH closed, waiting before shutting down
